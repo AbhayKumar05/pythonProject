@@ -3,7 +3,7 @@ import tkinter as tk
 
 colours = ['Red', 'Blue', 'Green', 'Yellow', 'Orange', 'Purple', 'Pink', 'Black', 'White']
 score = 0
-timeleft = 100   #TODO
+timeleft = 100
 
 def start_game(event):
     global timeleft
