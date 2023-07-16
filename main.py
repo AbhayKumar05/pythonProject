@@ -52,9 +52,9 @@ def load_highest_score():
         return 0
 
 window = tk.Tk()
-font = 'Helvetica'
-window.title("Color Game")
-window.geometry("375x250")
+font = 'JetBrains Mono'
+window.title("The Color Game")
+window.geometry("375x350")
 window.resizable(False, False)
 
 instructions = tk.Label(window, text="Enter the color of the text, not the word!", font=(font, 12))
